@@ -41,7 +41,7 @@
       background-color: #555;
     }
 
-    section {
+    main {
       padding: 50px 20px;
       text-align: center;
     }
@@ -90,41 +90,44 @@
     <a href="#contact">Contact</a>
   </nav>
 
-  <section id="home">
-    <h2>Welcome to Shrimp Delight</h2>
-    <p>Discover the freshest and most delicious shrimp dishes in town.</p>
-    <video controls>
-      <source src="shrimp_video.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-    <a href="#menu" class="button">Explore Our Menu</a>
-  </section>
+  <main>
+    <section id="home">
+      <h2>Welcome to Shrimp Delight</h2>
+      <p>Discover the freshest and most delicious shrimp dishes in town.</p>
+      <video controls>
+        <source src="shrimp_video.mp4" type="video/mp4" alt="Shrimp Delight Video">
+        Your browser does not support the video tag.
+      </video>
+      <a href="#menu" class="button">Explore Our Menu</a>
+    </section>
 
-  <section id="about">
-    <h2>About Us</h2>
-    <p>At Shrimp Delight, we are committed to serving high-quality shrimp sourced from the best locations. Our chefs prepare each dish with precision and care.</p>
-  </section>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>At Shrimp Delight, we are committed to serving high-quality shrimp sourced from the best locations. Our chefs prepare each dish with precision and care.</p>
+    </section>
 
-  <section id="menu">
-    <h2>Menu</h2>
-    <!-- Include your menu items and descriptions here -->
-  </section>
+    <section id="menu">
+      <h2>Menu</h2>
+      <!-- Include your menu items and descriptions here -->
+    </section>
 
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <p>Have questions or want to make a reservation? Contact us!</p>
-    <form>
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
-      <br>
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
-      <br>
-      <textarea id="message" name="message" rows="4" placeholder="Your message..." required></textarea>
-      <br>
-      <input type="submit" value="Submit" class="button">
-    </form>
-  </section>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Have questions or want to make a reservation? Contact us!</p>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" placeholder="Your message..." required></textarea>
+        <br>
+        <input type="submit" value="Submit" class="button">
+      </form>
+    </section>
+  </main>
 
   <footer>
     <p>&copy; 2023 Shrimp Delight. All rights reserved.</p>
